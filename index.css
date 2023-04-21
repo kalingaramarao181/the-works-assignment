@@ -1,0 +1,197 @@
+* {
+  box-sizing: border-box;
+  color: #080b42;
+  font-size: 14px;
+}
+
+p {
+  margin: 5px;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.profile-icon {
+  font-size: 100px;
+  color: #080b42;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.profile-icon-name-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+  width: 15vw;
+}
+
+.icon {
+  font-size: 60px;
+  color: #080b42;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.icon-container {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: solid #080b42 8px;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.user-name {
+  font-size: 16px;
+  font-family: "Roboto";
+  color: #080b42;
+}
+
+.file-container {
+  background-color: #f74f87;
+  padding: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.details-card {
+  border-bottom: solid #080b42 5px;
+  display: flex;
+  flex-grow: 1;
+  width: 85vw;
+}
+
+.icon-name-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+  width: 15vw;
+  padding: 10px;
+}
+
+.profile-title-container {
+  border-right: solid #080b42 5px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  width: 44vw;
+}
+
+.profile-address-container {
+  padding-right: 20px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  width: 35vw;
+}
+
+ul {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+li {
+  margin: 0px;
+  padding-bottom: 0px;
+}
+
+.work-list-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-grow: 1;
+}
+
+.work-list-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.year {
+  width: 20vw;
+}
+
+.worker-details-container {
+  width: 50vw;
+}
+
+.worker-name {
+  font-weight: bold;
+}
+
+.rating-container {
+  display: flex;
+  width: 100px;
+}
+
+.intrests-icon-container {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.skill-name-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skill-name {
+  width: 20vw;
+}
+
+.skill-year {
+  width: 10vw;
+}
+
+.skill-details-container {
+  width: 20vw;
+}
+
+.intrests-card {
+  border-bottom: solid #080b42 5px;
+  display: flex;
+  flex-grow: 1;
+  width: 80vw;
+  justify-content: center;
+}
+
+.intrests-icon-container {
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
